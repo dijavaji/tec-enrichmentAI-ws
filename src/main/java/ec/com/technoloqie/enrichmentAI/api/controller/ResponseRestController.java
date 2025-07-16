@@ -47,8 +47,8 @@ public class ResponseRestController {
 	@ResponseStatus(HttpStatus.OK)
 	public ResponseEntity<?> getVideoAnalysis(@Valid @RequestBody VideoContentDto videoDto, BindingResult result) {
 		try {
-			ChatDto createUser = this.videoService.generateAnalysis(videoDto);
-			return new ResponseEntity<>(createUser, HttpStatus.OK); 
+			ChatDto createChat = this.videoService.generateAnalysis(videoDto);
+			return new ResponseEntity<>(createChat, HttpStatus.OK); 
 		}catch(EnrichmentAIException e) {
 			String response = e.getMessage() +" : " + e;
 			return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
