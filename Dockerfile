@@ -21,7 +21,7 @@ WORKDIR /app
 COPY --from=build /app/target/tec-enrichmentAI-ws-0.0.1-SNAPSHOT.jar .
 #COPY target/*.jar /app/application.jar
 
-EXPOSE 8083
+EXPOSE 8080
 
 LABEL maintainer="technoloqie.com.ec"
 
