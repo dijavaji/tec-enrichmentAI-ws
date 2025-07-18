@@ -1,4 +1,4 @@
-package ec.com.technoloqie.enrichmentAI.api.service.impl;
+package ec.com.technoloqie.enrichmentai.api.service.impl;
 
 import static dev.langchain4j.data.message.SystemMessage.systemMessage;
 
@@ -17,8 +17,8 @@ import dev.langchain4j.data.message.SystemMessage;
 import dev.langchain4j.model.chat.ChatLanguageModel;
 import dev.langchain4j.model.ollama.OllamaChatModel;
 import dev.langchain4j.model.output.Response;
-import ec.com.technoloqie.enrichmentAI.api.repository.ChatDto;
-import ec.com.technoloqie.enrichmentAI.api.service.IImageAiModelService;
+import ec.com.technoloqie.enrichmentai.api.repository.ChatDto;
+import ec.com.technoloqie.enrichmentai.api.service.IImageAiModelService;
 import lombok.extern.slf4j.Slf4j;
 
 @Service

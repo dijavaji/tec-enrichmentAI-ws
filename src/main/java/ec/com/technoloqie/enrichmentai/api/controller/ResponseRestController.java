@@ -1,4 +1,4 @@
-package ec.com.technoloqie.enrichmentAI.api.controller;
+package ec.com.technoloqie.enrichmentai.api.controller;
 
 import javax.validation.Valid;
 
@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import ec.com.technoloqie.enrichmentAI.api.common.exception.EnrichmentAIException;
-import ec.com.technoloqie.enrichmentAI.api.repository.ChatDto;
-import ec.com.technoloqie.enrichmentAI.api.repository.VideoContentDto;
-import ec.com.technoloqie.enrichmentAI.api.service.IVideoAiModelService;
+import ec.com.technoloqie.enrichmentai.api.common.exception.EnrichmentAIException;
+import ec.com.technoloqie.enrichmentai.api.repository.ChatDto;
+import ec.com.technoloqie.enrichmentai.api.repository.VideoContentDto;
+import ec.com.technoloqie.enrichmentai.api.service.IVideoAiModelService;
 import lombok.extern.slf4j.Slf4j;
 
 /**

@@ -1,4 +1,4 @@
-package ec.com.technoloqie.enrichmentAI.api.common.exception;
+package ec.com.technoloqie.enrichmentai.api.common.exception;
 
 public class EnrichmentAIException extends RuntimeException{
 	

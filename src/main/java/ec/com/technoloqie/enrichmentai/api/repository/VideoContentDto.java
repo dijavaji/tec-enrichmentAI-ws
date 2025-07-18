@@ -1,4 +1,4 @@
-package ec.com.technoloqie.enrichmentAI.api.repository;
+package ec.com.technoloqie.enrichmentai.api.repository;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package ec.com.technoloqie.enrichmentAI.api.common.util;
+package ec.com.technoloqie.enrichmentai.api.common.util;
 
 import java.awt.image.BufferedImage;
 import java.io.BufferedInputStream;
@@ -14,7 +14,7 @@ import org.bytedeco.javacv.FFmpegFrameGrabber;
 import org.bytedeco.javacv.Frame;
 import org.bytedeco.javacv.Java2DFrameConverter;
 
-import ec.com.technoloqie.enrichmentAI.api.common.exception.EnrichmentAIException;
+import ec.com.technoloqie.enrichmentai.api.common.exception.EnrichmentAIException;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

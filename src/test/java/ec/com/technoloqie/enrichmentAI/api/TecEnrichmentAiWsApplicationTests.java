@@ -18,10 +18,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
-import ec.com.technoloqie.enrichmentAI.api.repository.ChatDto;
-import ec.com.technoloqie.enrichmentAI.api.repository.VideoContentDto;
-import ec.com.technoloqie.enrichmentAI.api.service.IImageAiModelService;
-import ec.com.technoloqie.enrichmentAI.api.service.IVideoAiModelService;
+import ec.com.technoloqie.enrichmentai.api.repository.ChatDto;
+import ec.com.technoloqie.enrichmentai.api.repository.VideoContentDto;
+import ec.com.technoloqie.enrichmentai.api.service.IImageAiModelService;
+import ec.com.technoloqie.enrichmentai.api.service.IVideoAiModelService;
 import lombok.extern.slf4j.Slf4j;
 
 @SpringBootTest
