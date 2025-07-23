@@ -1,8 +1,8 @@
-package ec.com.technoloqie.enrichmentAI.api.service;
+package ec.com.technoloqie.enrichmentai.api.service;
 
 import java.util.Collection;
 
-import ec.com.technoloqie.enrichmentAI.api.repository.ChatDto;
+import ec.com.technoloqie.enrichmentai.api.repository.ChatDto;
 
 public interface IImageAiModelService {
 	

@@ -1,4 +1,4 @@
-package ec.com.technoloqie.enrichmentAI.api.service.impl;
+package ec.com.technoloqie.enrichmentai.api.service.impl;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -16,12 +16,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 
-import ec.com.technoloqie.enrichmentAI.api.common.exception.EnrichmentAIException;
-import ec.com.technoloqie.enrichmentAI.api.common.util.VideoUtils;
-import ec.com.technoloqie.enrichmentAI.api.repository.ChatDto;
-import ec.com.technoloqie.enrichmentAI.api.repository.VideoContentDto;
-import ec.com.technoloqie.enrichmentAI.api.service.IImageAiModelService;
-import ec.com.technoloqie.enrichmentAI.api.service.IVideoAiModelService;
+import ec.com.technoloqie.enrichmentai.api.common.exception.EnrichmentAIException;
+import ec.com.technoloqie.enrichmentai.api.common.util.VideoUtils;
+import ec.com.technoloqie.enrichmentai.api.repository.ChatDto;
+import ec.com.technoloqie.enrichmentai.api.repository.VideoContentDto;
+import ec.com.technoloqie.enrichmentai.api.service.IImageAiModelService;
+import ec.com.technoloqie.enrichmentai.api.service.IVideoAiModelService;
 import lombok.extern.slf4j.Slf4j;
 
 @Service
